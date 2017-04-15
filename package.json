@@ -1,0 +1,18 @@
+{
+  "name": "wheel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/songhlc/wheel.git",
+  "author": "windknow <songhlc@yonyou.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel eventemitter --watch --out-dir lib",
+    "dev": "node lib/test.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
